@@ -9,6 +9,7 @@
 // https://v2.quasar.dev/quasar-cli-vite/quasar-config-js
 
 const { configure } = require('quasar/wrappers');
+const path = require('path');
 
 module.exports = configure(function (/* ctx */) {
     return {
