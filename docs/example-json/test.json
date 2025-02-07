@@ -1,0 +1,56 @@
+{
+    "nfaNodes": [
+        {
+            "name": "X",
+            "isStartNode": true,
+            "nextNodes": {
+                "epsilon": ["1"]
+            }
+        },
+        {
+            "name": "1",
+            "nextNodes": {
+                "a": ["1"],
+                "b": ["1"],
+                "epsilon": ["2"]
+            }
+        },
+        {
+            "name": "2",
+            "nextNodes": {
+                "a": ["3"],
+                "b": ["4"]
+            }
+        },
+        {
+            "name": "3",
+            "nextNodes": {
+                "a": ["5"]
+            }
+        },
+        {
+            "name": "4",
+            "nextNodes": {
+                "b": ["5"]
+            }
+        },
+        {
+            "name": "5",
+            "nextNodes": {
+                "epsilon": ["6"]
+            }
+        },
+        {
+            "name": "6",
+            "nextNodes": {
+                "a": ["6"],
+                "b": ["6"],
+                "epsilon": ["Y"]
+            }
+        },
+        {
+            "name": "Y",
+            "isEndNode": true
+        }
+    ]
+}
