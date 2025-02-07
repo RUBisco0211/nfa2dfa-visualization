@@ -75,6 +75,13 @@ module.exports = configure(function (/* ctx */) {
             // minify: false,
             // polyfillModulePreload: true,
             distDir: 'docs',
+            extendViteConf(viteConf) {
+                viteConf.resolve.alias = {
+                    ...viteConf.resolve.alias,
+                    '@': path.resolve(__dirname, './src'),
+                };
+                viteConf.base = './';
+            },
 
             // extendViteConf (viteConf) {},
             // viteVuePluginOptions: {},
