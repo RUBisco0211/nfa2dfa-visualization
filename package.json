@@ -2,7 +2,7 @@
     "name": "fa-graphs",
     "version": "0.0.1",
     "description": "A Quasar Project",
-    "productName": "NFA2DFA_Graphs",
+    "productName": "nfa2dfa-visualization",
     "author": "RUBisco <1205456072@qq.com>",
     "private": true,
     "scripts": {
