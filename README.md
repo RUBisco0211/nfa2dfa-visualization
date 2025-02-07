@@ -1,6 +1,6 @@
 # nfa2dfa_visualization
 
-#### 将 NFA 转为 DFA 的可视化程序
+#### 将 NFA 转为 DFA 的可视化网页
 
 -   支持编辑 nfa 结点（功能待完善）
 -   推荐以 json 格式导入 nfa 结点
