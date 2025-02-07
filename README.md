@@ -3,10 +3,7 @@
 #### 将 NFA 转为 DFA 的可视化网页
 
 在线预览：https://rubisco0211.github.io/nfa2dfa-visualization/
-
--   支持编辑 nfa 结点（功能待完善）
--   推荐以 json 格式导入 nfa 结点
-
+推荐以 json 格式导入 nfa 结点
 参考 json 格式：
 
 ```json
